@@ -149,4 +149,13 @@ abstract class ConsoleApp {
      * @return void
      */
     abstract protected function run();
+
+    /**
+     * Creates an instance of the child class, which will execute the console app
+     */
+    public static function execute()
+    {
+        $className = get_called_class();
+        new $className();
+    }
 }
