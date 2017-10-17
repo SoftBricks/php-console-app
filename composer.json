@@ -1,0 +1,16 @@
+{
+    "name": "softbricks/php-console-app",
+    "description": "Helps creating PHP command line scripts",
+    "authors": [
+        {
+            "name": "Samuel Menigat",
+            "email": "samuel.menigat@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "SoftBricks\\CLI\\": ""
+        }
+    }
+}
